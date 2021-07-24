@@ -9,3 +9,5 @@ else:
     a = (plus - minus) // 2
     b = plus - a
     print(max(a, b), min(a, b))
+
+#은근히 수학적인 부분이 많다.
