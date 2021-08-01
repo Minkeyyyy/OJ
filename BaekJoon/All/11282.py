@@ -4,6 +4,4 @@
 n = int(input())
 print(chr(n+44031))
 
-# print(ord("힣")-44031)
-
-# print(chr(44032))
+#한글도 일단 chr함수나 ord함수가 가능함을 알았음.
