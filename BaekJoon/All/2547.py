@@ -4,6 +4,7 @@
 import sys
 
 t = int(sys.stdin.readline())
+#빈 줄을 삽입
 sys.stdin.readline()
 
 for i in range(t):
@@ -11,6 +12,7 @@ for i in range(t):
     n = int(sys.stdin.readline())
     for _ in range(n):
         result += int(sys.stdin.readline())
+    #마지막 케이스 빼고는 모두 빈 줄을 삽입
     if (i + 1) != t:
         sys.stdin.readline()
 
