@@ -25,5 +25,4 @@ while True:
             result += 1
             if now > n:
                 now = now - n
-
 print(result)
