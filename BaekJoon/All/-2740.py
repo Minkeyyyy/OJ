@@ -26,14 +26,14 @@ for i in range(m):
         for j in range(len(ls)):
             mat2[j].append(ls[j])
 
-# print(mat1)
-# print(mat2)
+print(mat1)
+print(mat2)
 
-for t in range(k):
-    for j in range(n):
-        result = 0
-        for i in range(m):
-            result += mat1[t][i] * mat2[j][i]
+# for t in range(k):
+#     for j in range(n):
+#         result = 0
+#         for i in range(m):
+#             result += mat1[t][i] * mat2[j][i]
 
-        print(result, end=" ")
-    print()
+#         print(result, end=" ")
+#     print()
